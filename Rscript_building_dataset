@@ -127,7 +127,7 @@ for(i in 1:nrow(date_ranges)) {
   for(gender in genders) {
     # Query arguments for Facebook
     args <- list(
-      token = "2d6e2c85da7360e5e9b8363f5a39b559",
+      token = (token),
       platform = "facebook",
       country = "GB",
       gender = gender,
@@ -186,7 +186,7 @@ for(i in 1:nrow(date_ranges)) {
   for(gender in genders) {
     # Query arguments for Facebook
     args <- list(
-      token = "2d6e2c85da7360e5e9b8363f5a39b559",
+      token = (token),
       platform = "instagram",
       country = "GB",
       gender = gender,
@@ -263,7 +263,7 @@ for(i in 1:nrow(date_ranges)) {
   for(gender in genders) {
     # Query arguments for Facebook
     args <- list(
-      token = "2d6e2c85da7360e5e9b8363f5a39b559",
+      token = (token),
       platform = "facebook",
       country = "GB",
       gender = gender,
@@ -310,7 +310,7 @@ for(i in 1:nrow(date_ranges)) {
   for(gender in genders) {
     # Query arguments for Instagram
     args <- list(
-      token = "2d6e2c85da7360e5e9b8363f5a39b559",
+      token = (token),
       platform = "instagram",
       country = "GB",
       gender = gender,
