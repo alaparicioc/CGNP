@@ -77,9 +77,6 @@ if(response$status == 200){
   }
 }
 
-data1 <- data %>%
-  filter(collection_id=="18"|collection_id=="38")
-
 
 ##########################################
 # Automatising retrieving Facebook data
